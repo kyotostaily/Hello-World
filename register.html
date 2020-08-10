@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>안녕하세요 가입해주시면 감사하겠습니다.</title>
+            <link href="./style/reg_style.css" rel="stylesheet"/>
+        </head>
+        <body>
+            <fieldset>
+                <legend>
+                    필수입력정보
+                </legend>
+                <table border="1">
+                    <caption>회원가입 필수 입력표</caption>
+                    <tr>
+                        <th><label for="user_id">아이디</label></th>
+                        <td><input type="text" id="user_id" required> <input type="button" value="중복확인"> </td>
+                    </tr>
+                    <tr>
+                        <th><label for="user_pwd">비밀번호</label></th>
+                        <td><input type="password" id="user_pwd" required> </td>
+                    </tr>
+                    <tr>
+                        <th><label for="user_name">이름</label></th>
+                        <td><input type="text" id="user_name" required> </td>
+                    </tr>
+                    <tr>
+                        <th><label for="user_tel">연락처</label></th>
+                        <td><input type="tel" id="user_tel" required> </td>
+                    </tr>
+                    <tr>
+                        <th><label for="user_email">이메일</label></th>
+                        <td><input type="email" id="user_email" required> </td>
+                    </tr>
+                    <tr>
+                        <th>전자우편신청</th>
+                        <td><input type="radio" name="mail" id="" ><label for="mail_yes">예, 신청합니다.</label>
+                            <input type="radio" name="mail" id="" ><label for="mail_no">아니오, 신청하지않습니다.</label>
+                             </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </body>
+        </html>
+    </head>
+</html>
